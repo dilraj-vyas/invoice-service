@@ -1,9 +1,17 @@
-Domain Layer:
+Domain Layer
+
 Customer entity
+
 Product entity
+
+OrderItem entity
+
 Order entity
+
 Invoice value object
+
 Tax value object
+
 Discount value object
 
 Application Layer:
