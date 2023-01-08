@@ -15,17 +15,17 @@ Tax value object
 Discount value object
 
 Application Layer:
-EventListener class: This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received. It could use dependency injection to obtain the necessary domain objects and repositories, and delegate to the domain layer to perform the actual invoice generation.
+EventListener class: This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received.
 
 InvoiceService interface (defines methods for generating invoices)
 
-InvoiceServiceImpl class: This class implements the InvoiceService interface and contains the business logic for generating invoices. It could use dependency injection to obtain the necessary domain objects and repositories, and use the data from the event and the order to calculate the values for the Invoice object.
+InvoiceServiceImpl class: This class implements the InvoiceService interface and contains the business logic for generating invoices. 
 
-OrderRepositoryImpl class: This class implements the OrderRepository interface and contains the logic for interacting with the order data store. It could use JPA or JDBC to persist and retrieve data from the database.
+OrderRepositoryImpl class: This class implements the OrderRepository interface and contains the logic for interacting with the order data store. this is using  JPA or JDBC to persist and retrieve data from the database.
 
 InvoiceRenderer interface (defines methods for rendering invoices as PDFs)
 
-InvoiceRendererImpl class: This class implements the InvoiceRenderer interface and contains the logic for rendering invoices as PDFs using a library like PDFBox.
+InvoiceRendererImpl class: This class implements the InvoiceRenderer interface and contains the logic for rendering invoices as PDFs using a library PDFBox.
 
 InvoiceStorage interface (defines methods for storing invoices)
 
