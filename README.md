@@ -1,3 +1,37 @@
+Domain Layer:
+Customer entity
+Product entity
+Order entity
+Invoice value object
+Tax value object
+Discount value object
+
+Application Layer:
+EventListener class: This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received. It could use dependency injection to obtain the necessary domain objects and repositories, and delegate to the domain layer to perform the actual invoice generation.
+
+InvoiceService interface (defines methods for generating invoices)
+
+InvoiceServiceImpl class: This class implements the InvoiceService interface and contains the business logic for generating invoices. It could use dependency injection to obtain the necessary domain objects and repositories, and use the data from the event and the order to calculate the values for the Invoice object.
+
+OrderRepositoryImpl class: This class implements the OrderRepository interface and contains the logic for interacting with the order data store. It could use JPA or JDBC to persist and retrieve data from the database.
+
+InvoiceRenderer interface (defines methods for rendering invoices as PDFs)
+
+InvoiceRendererImpl class: This class implements the InvoiceRenderer interface and contains the logic for rendering invoices as PDFs using a library like PDFBox.
+
+InvoiceStorage interface (defines methods for storing invoices)
+
+InvoiceStorageImpl class: This class implements the InvoiceStorage interface and contains the logic for storing invoices in a file system or cloud storage service.
+
+InvoiceNotifier interface (defines methods for notifying customers of their invoices)
+
+InvoiceNotifierImpl class: This class implements the InvoiceNotifier interface and contains the logic for sending notifications to customers via email or SMS.
+
+
+Infrastructure Layer:
+
+JmsTemplate (used by the EventListener class to listen for events on the messaging queue)
+
 # Create Order
 API - http://localhost:7171/frosty-whale/order/create
 
@@ -49,5 +83,7 @@ API - http://localhost:7171/frosty-whale/order/push
 }
 }
 }
+
+
 
 
