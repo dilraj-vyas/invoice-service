@@ -1,4 +1,5 @@
 Domain Layer :
+
 Customer entity
 
 Product entity
