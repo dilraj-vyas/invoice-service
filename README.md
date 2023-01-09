@@ -9,8 +9,14 @@ This service allows users to create, view, and manage invoices.
 - Generate PDF versions of invoices
 
 
+
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Environment:
+- Java version: 11
+- Maven version: 3.*
+- Spring Boot version: 2.2.1.RELEASE
 
 # Prerequisites
 - java 11
