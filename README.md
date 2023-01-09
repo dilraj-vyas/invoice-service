@@ -15,6 +15,7 @@ Tax value object
 Discount value object
 
 Application Layer:
+
 EventListener class: This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received.
 
 InvoiceService interface (defines methods for generating invoices)
