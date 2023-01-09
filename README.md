@@ -3,6 +3,7 @@
 This service allows users to create, view, and manage invoices.
 
 # Features
+- Create new order
 - Create new invoices
 - View existing invoices
 - Generate PDF versions of invoices
