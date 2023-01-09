@@ -10,25 +10,25 @@
 
 # Application Layer:
 
-EventListener class': This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received.
+- EventListener class: This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received.
 
-InvoiceService interface (defines methods for generating invoices)
+- InvoiceService interface (defines methods for generating invoices)
 
-InvoiceServiceImpl class: This class implements the InvoiceService interface and contains the business logic for generating invoices. 
+- InvoiceServiceImpl class: This class implements the InvoiceService interface and contains the business logic for generating invoices. 
 
-OrderRepositoryImpl class: This class implements the OrderRepository interface and contains the logic for interacting with the order data store. this is using  JPA or JDBC to persist and retrieve data from the database.
+- OrderRepositoryImpl class: This class implements the OrderRepository interface and contains the logic for interacting with the order data store. this is using  JPA or JDBC to persist and retrieve data from the database.
 
-InvoiceRenderer interface (defines methods for rendering invoices as PDFs)
+- InvoiceRenderer interface (defines methods for rendering invoices as PDFs)
 
-InvoiceRendererImpl class: This class implements the InvoiceRenderer interface and contains the logic for rendering invoices as PDFs using a library PDFBox.
+- InvoiceRendererImpl class: This class implements the InvoiceRenderer interface and contains the logic for rendering invoices as PDFs using a library PDFBox.
 
-InvoiceStorage interface (defines methods for storing invoices)
+- InvoiceStorage interface (defines methods for storing invoices)
 
-InvoiceStorageImpl class: This class implements the InvoiceStorage interface and contains the logic for storing invoices in a file system or cloud storage service.
+- InvoiceStorageImpl class: This class implements the InvoiceStorage interface and contains the logic for storing invoices in a file system or cloud storage service.
 
-InvoiceNotifier interface (defines methods for notifying customers of their invoices)
+- InvoiceNotifier interface (defines methods for notifying customers of their invoices)
 
-InvoiceNotifierImpl class: This class implements the InvoiceNotifier interface and contains the logic for sending notifications to customers via email or SMS.
+- InvoiceNotifierImpl class: This class implements the InvoiceNotifier interface and contains the logic for sending notifications to customers via email or SMS.
 
 
 # Infrastructure Layer:
