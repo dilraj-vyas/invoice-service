@@ -16,8 +16,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 # Installing
--Clone the repository: git clone https://github.com/dilraj-vyas/invoice-service.git
--Navigate to the project directory: cd invoice-service
+- Clone the repository: git clone https://github.com/dilraj-vyas/invoice-service.git
+- Navigate to the project directory: cd invoice-service
 
 # Built With
 - maven
