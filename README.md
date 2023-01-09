@@ -1,3 +1,35 @@
+# Invoice Service
+
+This service allows users to create, view, and manage invoices.
+
+# Features
+-Create new invoices
+-View existing invoices
+-Generate PDF versions of invoices
+
+
+# Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+# Prerequisites
+-java 11
+
+
+# Installing
+-Clone the repository: git clone https://github.com/dilraj-vyas/invoice-service.git
+-Navigate to the project directory: cd invoice-service
+
+Run the application: App.java
+# Built With
+- maven
+# Contributing
+If you'd like to contribute to this project, please follow these guidelines:
+
+-Fork the repository
+-Create a new branch for your feature
+-Commit your changes and push to the new branch
+-Submit a pull request
+
 # Domain Layer :
 
 - Customer entity
