@@ -1,4 +1,4 @@
-Domain Layer :
+# Domain Layer :
 
 Customer entity
 
@@ -14,7 +14,7 @@ Tax value object
 
 Discount value object
 
-Application Layer:
+# Application Layer:
 
 EventListener class: This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received.
 
@@ -37,7 +37,7 @@ InvoiceNotifier interface (defines methods for notifying customers of their invo
 InvoiceNotifierImpl class: This class implements the InvoiceNotifier interface and contains the logic for sending notifications to customers via email or SMS.
 
 
-Infrastructure Layer:
+# Infrastructure Layer:
 
 JmsTemplate (used by the EventListener class to listen for events on the messaging queue)
 
