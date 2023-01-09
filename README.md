@@ -44,6 +44,8 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 - `EventListener class:` This class listens for "OrderPaid" events on the messaging queue and triggers the generation of an invoice when an event is received.
 
+# Service Layer:
+
 - `InvoiceService interface:` (defines methods for generating invoices)
 
 - `InvoiceServiceImpl class:`  This class implements the InvoiceService interface and contains the business logic for generating invoices. 
