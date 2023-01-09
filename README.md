@@ -26,13 +26,6 @@ These instructions will get you a copy of the project up and running on your loc
 - Clone the repository: git clone https://github.com/dilraj-vyas/invoice-service.git
 - Navigate to the project directory: cd invoice-service
 
-# Contributing
-If you'd like to contribute to this project, please follow these guidelines:
-
-- Fork the repository
-- Create a new branch for your feature
-- Commit your changes and push to the new branch
-- Submit a pull request
 
 # Domain Layer :
 
