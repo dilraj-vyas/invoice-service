@@ -70,7 +70,8 @@ JmsTemplate (used by the EventListener class to listen for events on the messagi
 API - http://localhost:7171/frosty-whale/order/create
 
 # Sample Json
-``` {
+``` 
+{
 "customer": {
 "name": "Ankit",
 "email": "ankit@gmail.com",
