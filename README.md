@@ -108,6 +108,8 @@ API - http://localhost:7171/frosty-whale/order/create
 API - http://localhost:7171/frosty-whale/order/push
 # Sample  json to trigger Event
 
+```
+
 {
 "id": 1,
 "type": "orderPaid",
@@ -121,6 +123,6 @@ API - http://localhost:7171/frosty-whale/order/push
 }
 }
 
-
+```
 
 
