@@ -20,7 +20,6 @@ These instructions will get you a copy of the project up and running on your loc
 # Prerequisites
 - java 11
 
-
 # Installing
 - Clone the repository: git clone https://github.com/dilraj-vyas/invoice-service.git
 - Navigate to the project directory: cd invoice-service
