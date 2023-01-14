@@ -1,6 +1,6 @@
 # Invoice Service
 
-This service allows users to create, view, and manage invoices.
+This service allows users to create and view invoices.
 
 # Features
 - Create new order
