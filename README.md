@@ -62,7 +62,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 # Infrastructure Layer:
 
-For Messaging Embedded ActiveMq is being used  
+For Messaging InMemory ActiveMq is  used  
 JmsTemplate (used by the EventListener class to listen for events on the messaging queue)
 
 
