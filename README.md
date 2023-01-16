@@ -58,7 +58,7 @@ These instructions will get you a copy of the project up and running on your loc
 - `InvoiceNotifier interface:` (defines methods for notifying customers of their invoices)
 
 - `InvoiceNotifierImpl class:` This class implements the InvoiceNotifier interface and contains the logic for sending notifications to customers via email or SMS.
-
+- `EmailService interface:` defines method for sending Email
 
 # Infrastructure Layer:
 
