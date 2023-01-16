@@ -62,7 +62,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 # Infrastructure Layer:
 
+For Messaging Embedded ActiveMq is being used  
 JmsTemplate (used by the EventListener class to listen for events on the messaging queue)
+
+
+
 
 # Create Order
 API - http://localhost:7171/frosty-whale/order/create
