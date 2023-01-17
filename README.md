@@ -7,8 +7,6 @@ This service allows users to create and view invoices.
 - Create new invoices
 - Generate PDF versions of invoices
 
-
-
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
